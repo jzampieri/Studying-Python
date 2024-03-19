@@ -4,8 +4,8 @@ Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o us
 
 """
 
-nota = float(input("Digite uma nota entre 0 a 10: "))
+nota = int(input("Digite uma nota entre 0 a 10: "))
 while nota <0 or nota >10:
     print("Nota incorreta")
-    nota = float(input("Digite uma nota entre zero a dez: "))
+    nota = int(input("Digite uma nota entre zero a dez: "))
 print("Nota válida!, sua nota foi ", nota)

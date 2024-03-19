@@ -9,8 +9,8 @@ Altere o programa anterior permitindo ao usuário informar as populações e as 
 """
 
 while True:
-    paisA = float(input("Digite o número de habitantes do Pais A: "))
-    paisB = float(input("Digite o número de habitantes do Pais B: "))
+    paisA = int(input("Digite o número de habitantes do Pais A: "))
+    paisB = int(input("Digite o número de habitantes do Pais B: "))
     crescimentoA = float(input("Digite a taxa de crescimento de habitantes do Pais A: "))/100
     crescimentoB = float(input("Digite a taxa de crescimento de habitantes do Pais B: "))/100
     anos = 0
